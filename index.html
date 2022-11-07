@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Подборка интересных фактов</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./libs/swiper-bundle.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="fact-area disable">
+        <div class="fact__wrapper">
+            <div class="fact__data">
+                <h2 class="fact__title"></h2>
+                <hr/>
+                <span class="fact__answer"></span>
+                <p class="fact__description"></p>
+            </div>
+            <img src="./assets/1.jpg" alt="Картинка" class="fact__img">
+        </div>
+    </div>
+    <div class="container">
+        <div class="mainText">
+            <div class="mainText__title">Интересные факты</div>
+            <div class="mainText__description">
+                <span>Почему медведь не ест пингвина? </span>
+                <span>Какую книгу чаще всего воруют в магазинах? </span>
+                <span>В какой стране нет ни одной реки?</span>
+                <span>Сколько соли уходит на чистку дорог зимой?</span>
+                <span>Эти и многие другие факты вы сейчас можете на данном сайте.</span>
+            </div>
+        </div>
+    
+        <div class="swiper slider slider__main">
+            <div class="swiper-wrapper slider__wrapper">
+                <div class="swiper-slide slide__item">
+                    <div class="slide__image" data-swiper-parallax="30%" style="background-image:url(assets/1.jpg);"></div>
+                </div>
+                <div class="swiper-slide slide__item">
+                    <div class="slide__image" data-swiper-parallax="20%" style="background-image:url(assets/2.jpg);"></div>
+                </div>
+                <div class="swiper-slide slide__item">
+                    <div class="slide__image" data-swiper-parallax="30%" style="background-image:url(assets/3.jpg);"></div>
+                </div>
+                <div class="swiper-slide slide__item">
+                    <div class="slide__image" data-swiper-parallax="20%" style="background-image:url(assets/4.jpg);"></div>
+                </div>
+                <div class="swiper-slide slide__item">
+                    <div class="slide__image" data-swiper-parallax="30%" style="background-image:url(assets/5.jpg);"></div>
+                </div>
+                <div class="swiper-slide slide__item">
+                    <div class="slide__image" data-swiper-parallax="20%" style="background-image:url(assets/6.jpg);"></div>
+                </div>
+                <div class="swiper-slide slide__item">
+                    <div class="slide__image" data-swiper-parallax="30%" style="background-image:url(assets/7.jpg);"></div>
+                </div>
+                <div class="swiper-slide slide__item">
+                    <div class="slide__image" data-swiper-parallax="20%" style="background-image:url(assets/8.jpg);"></div>
+                </div>
+                <div class="swiper-slide slide__item">
+                    <div class="slide__image" data-swiper-parallax="30%" style="background-image:url(assets/9.jpg);"></div>
+                </div>
+            </div>
+        </div>
+        <div class="swiper slider slider__background">
+            <div class="swiper-wrapper slider__wrapper">
+                <div class="swiper-slide slide__item">
+                    <div class="slide__image" data-swiper-parallax="30%" style="background-image:url(assets/1.jpg);"></div>
+                </div>
+                <div class="swiper-slide slide__item">
+                    <div class="slide__image" data-swiper-parallax="20%" style="background-image:url(assets/2.jpg);"></div>
+                </div>
+                <div class="swiper-slide slide__item">
+                    <div class="slide__image" data-swiper-parallax="30%" style="background-image:url(assets/3.jpg);"></div>
+                </div>
+                <div class="swiper-slide slide__item">
+                    <div class="slide__image" data-swiper-parallax="20%" style="background-image:url(assets/4.jpg);"></div>
+                </div>
+                <div class="swiper-slide slide__item">
+                    <div class="slide__image" data-swiper-parallax="30%" style="background-image:url(assets/5.jpg);"></div>
+                </div>
+                <div class="swiper-slide slide__item">
+                    <div class="slide__image" data-swiper-parallax="20%" style="background-image:url(assets/6.jpg);"></div>
+                </div>
+                <div class="swiper-slide slide__item">
+                    <div class="slide__image" data-swiper-parallax="30%" style="background-image:url(assets/7.jpg);"></div>
+                </div>
+                <div class="swiper-slide slide__item">
+                    <div class="slide__image" data-swiper-parallax="20%" style="background-image:url(assets/8.jpg);"></div>
+                </div>
+                <div class="swiper-slide slide__item">
+                    <div class="slide__image" data-swiper-parallax="30%" style="background-image:url(assets/9.jpg);"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./libs/swiper-bundle.min.js" type="text/javascript" defer></script>
+    <script src="./scripts/data.js" type="text/javascript" defer></script>
+    <script src="./scripts/main.js" type="text/javascript" defer></script>
+</body>
+</html>
